@@ -1,0 +1,41 @@
+/* Set the height of each individual email card to 100 pixel */
+#threadTree tbody tr.card-layout.collapsed {
+    height: 100px !important;
+}
+
+/* Expand div container to span heigt */
+#threadTree tbody tr .thread-card-row {
+    height: fit-content !important;
+}
+
+/* Make the subject text span break long subject texts */
+#threadTree tbody tr .thread-card-subject-container span.subject {
+    display: block;
+    height: fit-content !important;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    overflow: visible !important;
+    white-space: normal !important;
+}
+
+/* Make the rounded border of each individual card coresponding to an unread email blue */
+#threadTree tbody tr[data-properties~="unread"] .card-container {
+    border-color: #0082FC !important;
+}
+
+/*
+#threadTree tbody tr[data-properties~="unread"][data-properties~="new"] .card-container {
+    background-color: #006800 !important;
+}
+#threadTree tbody tr.selected .card-container {
+    background-color: #800 !important;
+}
+#threadTree tbody tr .card-container:hover,
+#threadTree tbody tr[data-properties~="unread"] .card-container:hover,
+#threadTree tbody tr[data-properties~="unread"][data-properties~="new"] .card-container:hover,
+#threadTree tbody tr.selected .card-container:hover {
+    background-color: #D1E2F2 !important;
+    color: #000 !important;
+} */
