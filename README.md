@@ -8,6 +8,6 @@ To apply the custom style sheet, you have to move the .css file into the active 
 For windows users the path should be `"C:\Users\@usernameXXX\AppData\Roaming\Thunderbird\Profiles\profileFolderNameXXX\chrome\userChrome.css"`.
 
 > [!important]
-> The folder `chrome` and its content `userChrome.css` have exist with these specific coresponding names.
+> The folder `/chrome` and its content `userChrome.css` have to exist with these specific names in order to be regocnized by Thunderbird.
 
 Furthermore, the Thunderbird configuration / extended settings option `toolkit.legacyUserProfileCustomizations.stylesheets` has to be set to `true`.
